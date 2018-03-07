@@ -66,8 +66,8 @@ deploy:
        cmd: /pipeline/source/pipeline
        port: "8080"
        tag: latest
-       repository: https://registry.hub.docker.com/v2/panxia6679/pipeline
-       registry: https://registry.hub.docker.com
+       repository: panxia6679/pipeline
+       registry: https://registry.hub.docker.com/v2
 
    - cng/cf-deploy:
        api: $API
