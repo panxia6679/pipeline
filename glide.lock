@@ -1,0 +1,14 @@
+hash: 7e10c3bac96ffed60c1497548e82d7b9de94920b8fe68c16acc8dfce84296e51
+updated: 2018-03-07T13:39:38.004147+08:00
+imports:
+- name: github.com/cloudnativego/go-primer
+  version: 7767382adc6dbabb860d9214279c0ada15b1c037
+  subpackages:
+  - npcs
+- name: github.com/codegangsta/negroni
+  version: 22c5532ea862c34fdad414e90f8cc00b4f6f4cab
+- name: github.com/mattn/go-runewidth
+  version: a9d6d1e4dc51df2130326793d49971f238839169
+- name: github.com/olekukonko/tablewriter
+  version: b8a9be070da40449e501c3c4730a889e42d87a9e
+testImports: []

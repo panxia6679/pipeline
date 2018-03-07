@@ -1,0 +1,7 @@
+package: github.com/panxia6679/pipeline
+import:
+- package: github.com/cloudnativego/go-primer
+  subpackages:
+  - npcs
+- package: github.com/codegangsta/negroni
+- package: github.com/olekukonko/tablewriter
