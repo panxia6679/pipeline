@@ -25,7 +25,7 @@ dev:
 build:
   steps:
     - setup-go-workspace:
-        package-dir: github.com/panxia6679/hello
+        package-dir: github.com/panxia6679/pipeline
 
     - script:
         name: env
