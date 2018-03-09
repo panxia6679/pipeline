@@ -69,11 +69,11 @@ deploy:
        repository: panxia6679/pipeline
        registry: https://registry.hub.docker.com/v2
 
-#   - cng/cf-deploy:
-#       api: $API
-#       user: $USER
-#       password: $PASSWORD
-#       org: $ORG
-#       space: $SPACE
-#       appname: wercker-step-hello
-#       docker_image: panxia6679/pipeline
+   - cng/cf-deploy:
+       api: $API
+       user: $USER
+       password: $PASSWORD
+       org: $ORG
+       space: $SPACE
+       appname: wercker-step-hello
+       docker_image: panxia6679/pipeline
