@@ -75,5 +75,5 @@ deploy:
        password: $PASSWORD
        org: $ORG
        space: $SPACE
-       appname: wercker-step-hello
+       appname: wercker-step-hello-perry
        docker_image: panxia6679/pipeline
