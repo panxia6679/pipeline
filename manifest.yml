@@ -1,5 +1,5 @@
 applications:
-- name: pipeline
+- name:  wercker-step-hello-perry
   memory: 512MB
   instances: 1
   disk_quota: 1024M
