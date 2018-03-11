@@ -63,7 +63,7 @@ deploy:
    - internal/docker-push:
        username: $DOCKER_USERNAME
        password: $DOCKER_PASSWORD
-       cmd: /pipeline/pipeline
+       cmd: pipeline
        port: "12345"
        tag: latest
        repository: panxia6679/pipeline
