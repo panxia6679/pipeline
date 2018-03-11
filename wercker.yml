@@ -64,7 +64,7 @@ deploy:
        username: $DOCKER_USERNAME
        password: $DOCKER_PASSWORD
        cmd: /pipeline/source/pipeline
-       port: "8080"
+       port: "12345"
        tag: latest
        repository: panxia6679/pipeline
        registry: https://registry.hub.docker.com/v2
