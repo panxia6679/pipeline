@@ -57,6 +57,10 @@ build:
         code: |
           cp -R ./ ${WERCKER_OUTPUT_DIR}
 
+    - script:
+        name: ls files
+        code: |
+          ls ./
 
 deploy:
  steps:
