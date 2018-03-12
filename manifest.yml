@@ -6,4 +6,3 @@ applications:
   disk_quota: 1024M
   path: /pipeline/source/
   buildpack: https://github.com/cloudfoundry/go-buildpack.git
-  repo: panxia6679/pipeline
