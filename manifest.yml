@@ -4,5 +4,6 @@ applications:
   memory: 512MB
   instances: 1
   disk_quota: 1024M
-  command: nohup /pipeline/source/pipeline &
+  command: pipeline
   buildpack: https://github.com/cloudfoundry/go-buildpack.git
+
