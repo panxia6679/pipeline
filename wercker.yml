@@ -65,7 +65,7 @@ deploy:
        password: $DOCKER_PASSWORD
        cmd: ./pipeline
        port: "8080"
-       tag: $WERCKER_GIT_COMMIT
+       tag: latest
        repository: panxia6679/pipeline
        registry: https://registry.hub.docker.com/v2
 
