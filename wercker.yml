@@ -60,7 +60,7 @@ build:
 
 deploy:
  steps:
-   - internal/docker-scratch-push:
+   - internal/docker-push:
        username: $DOCKER_USERNAME
        password: $DOCKER_PASSWORD
        cmd: ./pipeline
