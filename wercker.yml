@@ -18,9 +18,9 @@ dev:
           export PATH=$WERCKER_SOURCE_DIR/bin:$PATH
           glide install
 
-    - internal/watch:
-        code: go run main.go
-        reload: true
+#    - internal/watch:
+#        code: go run main.go
+#        reload: true
 
 
 build:
