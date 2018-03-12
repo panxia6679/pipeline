@@ -22,6 +22,7 @@ dev:
         code: go run main.go
         reload: true
 
+
 build:
   steps:
     - setup-go-workspace:
@@ -61,13 +62,14 @@ build:
         name: ls files
         code: |
           ls ./
+          chmod +x ./pipeline
 
 deploy:
  steps:
    - internal/docker-push:
        username: $DOCKER_USERNAME
        password: $DOCKER_PASSWORD
-       cmd: ./pipeline
+       cmd: pipeline
        port: "8080"
        tag: latest
        repository: panxia6679/pipeline
