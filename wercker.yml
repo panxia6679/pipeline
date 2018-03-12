@@ -60,12 +60,12 @@ build:
 
 deploy:
  steps:
-   - internal/docker-push:
+   - internal/docker-scratch-push:
        username: $DOCKER_USERNAME
        password: $DOCKER_PASSWORD
-       cmd: ${WERCKER_OUTPUT_DIR}/pipeline
-       port: "12345"
-       tag: latest
+       cmd: ./pipeline
+       port: "8080"
+       tag: $WERCKER_GIT_COMMIT
        repository: panxia6679/pipeline
        registry: https://registry.hub.docker.com/v2
 
