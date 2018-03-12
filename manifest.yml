@@ -1,3 +1,4 @@
+---
 applications:
 - name:  wercker-step-hello-perry
   memory: 512MB
