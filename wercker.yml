@@ -69,7 +69,7 @@ deploy:
    - internal/docker-push:
        username: $DOCKER_USERNAME
        password: $DOCKER_PASSWORD
-       cmd: "nohup /pipeline/source/pipeline &"
+       cmd:  /pipeline/source/pipeline
        port: "8080"
        tag: latest
        repository: panxia6679/pipeline
@@ -82,4 +82,5 @@ deploy:
        org: $ORG
        space: $SPACE
        appname: wercker-step-hello-perry
+       insecure-skip-tls-verify: true
        docker_image: panxia6679/pipeline
